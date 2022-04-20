@@ -131,7 +131,7 @@ extension DetailViewController: retriveImgListViewDelegate {
             self.PhotoCollectionView.reloadData()
         }
             
-        delegate?.reloadData()
+        delegate?.relloadData()
     }
     
     func failedToRequest(message: String) {

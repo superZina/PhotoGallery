@@ -82,7 +82,7 @@ extension MainViewController:UICollectionViewDelegate , UICollectionViewDataSour
 }
 
 //MARK: - Detail delegate extension
-extension MainViewController:DetailViewProtocol {
+extension MainViewController: DetailViewProtocol {
     
     func reloadData() {
         DispatchQueue.main.async {

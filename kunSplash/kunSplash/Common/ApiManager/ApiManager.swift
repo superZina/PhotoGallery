@@ -99,7 +99,7 @@ class ApiManager {
     func decodeData(data:Data) -> [PhotoProperty]? {
         let decoder = JSONDecoder()
         do {
-            let decoded = try  decoder.decode([PhotoProperty].self, from: data)
+            let decoded = try decoder.decode([PhotoProperty].self, from: data)
             return decoded
         }catch {
             return nil
